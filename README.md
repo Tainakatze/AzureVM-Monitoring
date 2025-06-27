@@ -210,5 +210,5 @@ Ao aplicar ferramentas como **Azure Monitor**, **Log Analytics**, **Workbooks** 
 
 Este repositório serve como um ponto de partida sólido para projetos reais e como reforço essencial para quem está estudando para a certificação **AZ-104**.
 
- 🚀 Monitore com consciência. Automatize com propósito. Evolua com consistência!!!
----
+🚀 Monitore com consciência. Automatize com propósito. Evolua com consistência!
+
