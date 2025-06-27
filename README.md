@@ -4,6 +4,8 @@ Este projeto reúne as melhores práticas, scripts e automações para implement
 
 ![Arquitetura de Monitoramento no Azure](./imagens/arquitetura-monitoramento-vm.png)
 
+---
+
 ## 📑 Índice:
 
 - [Visão Geral](#visão-geral)
@@ -18,6 +20,8 @@ Este projeto reúne as melhores práticas, scripts e automações para implement
 - [Relacionamento com a AZ-104](#relacionamento-com-a-az-104)
 - [FAQ](#faq)
 - [Glossário](#glossário)
+
+  ---
 
   ## 👁️ Visão Geral:
 
