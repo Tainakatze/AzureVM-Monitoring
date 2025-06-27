@@ -2,6 +2,8 @@
 
 Este projeto reúne as melhores práticas, scripts e automações para implementar um sistema robusto de **monitoramento de Máquinas Virtuais no Microsoft Azure**. Ideal para profissionais de infraestrutura, devops e estudantes da certificação AZ-104.
 
+![Arquitetura de Monitoramento no Azure](./imagens/arquitetura-monitoramento-vm.png)
+
 ---
 
 ## 📑 Índice:
