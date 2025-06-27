@@ -3,9 +3,8 @@
 Este projeto reúne as melhores práticas, scripts e automações para implementar um sistema robusto de **monitoramento de Máquinas Virtuais no Microsoft Azure**. Ideal para profissionais de infraestrutura, devops e estudantes da certificação AZ-104.
 
 
-![Arquitetura de Monitoramento no Azure](./imagens/arquitetura-monitoramento-vm.png)
-
 ---
+
 
 ## 📑 Índice:
 
@@ -22,13 +21,17 @@ Este projeto reúne as melhores práticas, scripts e automações para implement
 - [FAQ](#faq)
 - [Glossário](#glossário)
 
+
   ---
+
 
   ## 👁️ Visão Geral:
 
 O monitoramento eficiente de VMs no Azure garante **alta disponibilidade**, **visibilidade proativa** e **resposta automatizada** a incidentes. Este projeto oferece um guia completo para colocar isso em prática.
 
+
 ---
+
 
 ## Arquitetura da Solução:
 
@@ -37,7 +40,9 @@ O monitoramento eficiente de VMs no Azure garante **alta disponibilidade**, **vi
 - Dashboard visual com Azure Workbooks
 - Scripts em PowerShell e Bash para resposta rápida
 
+
 ---
+
 
 ## ⚙️ Pré-requisitos:
 
@@ -45,7 +50,9 @@ O monitoramento eficiente de VMs no Azure garante **alta disponibilidade**, **vi
 - Azure CLI ou PowerShell instalados
 - Log Analytics Workspace provisionado
 
+
 ---
+
 
 ## Passo a Passo:
 
@@ -55,7 +62,9 @@ O monitoramento eficiente de VMs no Azure garante **alta disponibilidade**, **vi
 4. **Importe o dashboard JSON para o Workbooks**
 5. **Teste as respostas automáticas com scripts**
 
+
 ---
+
 
 ## 💡 Automação com PowerShell e Bash:
 
@@ -71,7 +80,9 @@ az monitor diagnostic-settings create \
   --metrics '[{"category": "AllMetrics", "enabled": true}]' \
   --logs '[{"category": "Administrative", "enabled": true}]'
 
+
 ---
+
 
 ## 🧱 Provisionamento com Bicep
 
@@ -105,7 +116,9 @@ resource vm 'Microsoft.Compute/virtualMachines@2023-03-01' = {
 
 💡 Dica: você pode adicionar extensões para conectar ao Log Analytics no próprio Bicep, evitando configurações manuais depois.
 
+
 ---
+
 
 ## 📊 Dashboard com Workbooks:
 
@@ -127,7 +140,9 @@ Para visualizar os dados em tempo real, utilize **Azure Workbooks** no portal do
 - 📶 Status de disponibilidade
 - 🔍 Filtros por grupo de recursos e região
 
+
 ---
+
 
 ## 🛡️ Boas Práticas de Segurança:
 
@@ -139,7 +154,9 @@ Para visualizar os dados em tempo real, utilize **Azure Workbooks** no portal do
 
 > 🔐 Dica: Utilize Azure Policy para garantir que todas as novas VMs venham com monitoramento e diagnósticos habilitados por padrão.
 
+
 ---
+
 
 ## 🎯 Desafios Propostos:
 
@@ -151,7 +168,9 @@ Se você está estudando para a certificação **AZ-104**, ou deseja expandir es
 4. 🔔 Integrar alertas do Azure Monitor com **Microsoft Teams ou Slack**
 5. 🔄 Criar um script PowerShell que **exporta métricas de várias VMs para CSV**
 
+
 ---
+
 
 ## 🎓 Relacionamento com a AZ-104:
 
@@ -165,7 +184,9 @@ Este projeto abrange diretamente tópicos cobrados na certificação **AZ-104: M
 
 > 📘 Recomendado: revise os módulos “Monitorar recursos do Azure” e “Gerenciar identidades e governança” no Microsoft Learn.
 
+
 ---
+
 
 ## ❓ FAQ:
 
@@ -178,7 +199,9 @@ Sim! O agente de diagnóstico e Log Analytics funciona com ambos, bastando aplic
 **➤ Posso importar o dashboard para outro tenant?**  
 Sim, desde que o workspace e as permissões estejam configurados corretamente no destino.
 
+
 ---
+
 
 ## 📚 Glossário:
 
@@ -188,20 +211,26 @@ Sim, desde que o workspace e as permissões estejam configurados corretamente no
 - **Runbook:** Script automatizado dentro do Azure Automation
 - **Bicep:** Linguagem declarativa para provisionamento de recursos (IaC)
 
+
 ---
+
 
 ## 🤝 Contribuições
 
 Pull requests são bem-vindos! Sinta-se à vontade para abrir **issues**, propor melhorias ou enviar novos dashboards e scripts úteis.
 
+
 ---
+
 
 ## Nota Final:
 
 Este repositório foi criado com foco em aprendizado, automação e boas práticas.  
 Ideal para quem deseja se aprofundar em **monitoramento no Azure**, seja para ambientes reais ou para certificações.
 
+
 ---
+
 
 ## ✅ Minhas conclusões:
 
